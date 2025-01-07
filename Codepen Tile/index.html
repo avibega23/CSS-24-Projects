@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codepen Tile</title>
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            background-color: rgb(43, 41, 41);
+            border-radius: 5px;
+            width: 35vh;
+            height: 35vh;
+        }
+        .profile-pic{
+            margin-top: 5px;
+            margin-left: 5px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+        .row{
+            margin-top: 8px;
+            margin-left: 5px;
+            display: flex;
+            flex-direction: row;
+        }
+        .profile{
+            
+        }
+        .container2{
+            border-radius: 5px;
+            object-fit: cover;
+            position: absolute;
+            height: 40px;
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/shelby.jpg" width="200px" height="140px" alt="" class="profile-pic">
+        <div class="row">
+            <div class="container2">
+                <img src="images/profile.jpg" width="40px" height="40px" alt="profile-pic" class="profile">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
